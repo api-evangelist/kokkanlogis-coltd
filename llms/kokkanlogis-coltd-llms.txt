@@ -1,0 +1,78 @@
+# KokkanLogis Co.,Ltd. (KOKKAN / 도심창고 곳간)
+
+> KokkanLogis Co.,Ltd. (주식회사 곳간) is a South Korean urban self-storage and logistics
+> operator based in Gangnam-gu, Seoul. It rents managed storage units in five sizes
+> across 22 branches in Seoul, Busan, Incheon, Gyeonggi and Chungbuk, sold and managed
+> through the KOKKAN iOS and Android apps with recurring monthly card billing.
+
+Generated: 2026-07-19
+Method: generated (from apis.yml and the provider's public website; the provider
+publishes no llms.txt of its own — https://kokkan.co.kr/llms.txt returns 404)
+Source: https://kokkan.co.kr
+
+## About
+
+- Legal name: 주식회사 곳간 (Kokkan Co., Ltd.)
+- Brand: KOKKAN / 도심창고 곳간 ("urban warehouse Gotgan")
+- Representative: 김경호
+- Business registration number: 212-86-15416
+- Headquarters: B1, 31-10 Gangnam-daero 156-gil, Gangnam-gu, Seoul, South Korea
+- Customer center: 1661-5990 (weekdays 10:00–19:00 KST, lunch 13:00–14:00)
+- Investor context: surfaced through the 500 Global portfolio
+
+## Products
+
+- Self-storage units in five sizes, priced and reserved per branch:
+  - S — 1.0 (H) x 1.0 (W) x 1.0 (D) m; documents and small items; ~8–12 Korea Post No.5 boxes
+  - M — 2.0 x 1.0 x 1.0 m; seasonal clothing, appliances, hobby goods; ~20–24 boxes
+  - L — 2.0 x 1.3 x 1.3 m; clothing, documents, books, collectibles; ~36–54 boxes
+  - XL — 2.0 x 1.3 x 2.0 m; product samples, home libraries, furniture, moving loads; ~54–72 boxes
+  - XXL — 2.0 x 2.0 x 2.0 m; small-furniture moving loads; ~100–120 boxes
+- Address rental (주소지 임대)
+- Pickup service for moving stored goods to and from a unit
+- Franchise / partnership program for operators opening a KOKKAN branch
+
+## Commercial terms (from the published 이용약관)
+
+- Minimum term is one month (30 days), measured from midnight; minimum-term charges
+  are non-refundable after the start date.
+- Contracts auto-renew monthly unless the customer completes the cancellation flow.
+- Payment is prepaid by credit or check card registered with a Korean electronic
+  payment gateway (PG); renewals are auto-charged without separate notice.
+- Price changes are notified 30 days in advance; customers may cancel up to 18:00 KST
+  seven days before the billing date.
+- Long-term and promotional discounts vary by branch and unit size (published per
+  branch on the branch list).
+- Prohibited items include cash and securities, luxury goods and artwork, controlled
+  substances, explosives and flammables, live or perishable goods, and anything
+  requiring refrigeration.
+
+## Links
+
+- Website: https://kokkan.co.kr
+- Corporate site: https://www.kokkanlogis.co.kr (access-restricted from outside Korea)
+- Branches: https://kokkan.co.kr/branch_list.php
+- FAQ / support: https://kokkan.co.kr/faq.php
+- Terms of service: https://kokkan.co.kr/content/guide.php
+- Privacy policy: https://kokkan.co.kr/content/privacy.php
+- Franchise / partnership: https://kokkan.co.kr/partner.php
+- Press: https://kokkan.co.kr/news.php
+- Customer reviews: https://kokkan.co.kr/review.php
+- Events: https://kokkan.co.kr/event.php
+- Blog: https://blog.naver.com/kokkan
+- iOS app: https://apps.apple.com/kr/app/id1540021502
+- Android app: https://play.google.com/store/apps/details?id=kr.co.kokkan.app
+- Instagram: https://www.instagram.com/kokkan_/
+- YouTube: https://www.youtube.com/@kokkan601
+- KakaoTalk channel: https://pf.kakao.com/_ErvnK
+
+## Developer surface
+
+KokkanLogis publishes no public API as of 2026-07-19. Verified absent: developer
+portal, API documentation, API reference, OpenAPI or other machine-readable spec,
+SDKs or client libraries (npm, PyPI, crates.io all return zero first-party results),
+CLI, GitHub organization, webhooks, status page, changelog, sandbox, MCP server, and
+any /.well-known/ discovery document. The api.*, docs.*, developer.* and dev.*
+subdomains of kokkanlogis.co.kr do not resolve. Do not assume an integration path
+exists; the product is consumed through the consumer website and the native mobile
+apps.

@@ -1,0 +1,49 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of the KOKKAN service host and the KokkanLogis corporate host
+notes: >-
+  No /.well-known/ discovery documents are published on either host. The consumer
+  service host (kokkan.co.kr) returns 404 for every probed path. The corporate host
+  (www.kokkanlogis.co.kr) sits behind an AWS ALB that returns 403 to every request
+  from outside its allowed range, so its /.well-known/ surface could not be observed
+  — the 403s below are access denials, not confirmations of absence. The apex
+  kokkanlogis.co.kr does not resolve. No apis.yml WellKnown or SecurityTxt pointer
+  is emitted because no document was found.
+hosts:
+- host: https://kokkan.co.kr
+  reachable: true
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /llms.txt
+    status: 404
+  - path: /robots.txt
+    status: 404
+  - path: /sitemap.xml
+    status: 404
+- host: https://www.kokkanlogis.co.kr
+  reachable: false
+  blocked: true
+  block_detail: 'AWS ALB (server: awselb/2.0) returns HTTP 403 with a 520-byte body
+    for every path, including / and /robots.txt; likely a geo or WAF restriction.'
+  documents:
+  - path: /
+    status: 403
+  - path: /robots.txt
+    status: 403
+  - path: /sitemap.xml
+    status: 403
+  - path: /.well-known/security.txt
+    status: 403
+- host: https://kokkanlogis.co.kr
+  reachable: false
+  block_detail: apex does not resolve (NXDOMAIN); only the www host has an A record
+  documents: []
