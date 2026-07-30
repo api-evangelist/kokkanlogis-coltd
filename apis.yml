@@ -1,20 +1,59 @@
 aid: kokkanlogis-coltd
 name: KokkanLogis Co.,Ltd.
-description: KokkanLogis Co.,Ltd. is a company surfaced as a portfolio company of 500-global and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'KokkanLogis Co.,Ltd. (주식회사 곳간, branded KOKKAN / 도심창고 곳간) is a South
+  Korean urban self-storage and logistics operator headquartered in Gangnam-gu, Seoul.
+  It rents managed storage units in five sizes (S, M, L, XL, XXL, from 1.0m cubes up
+  to 2.0 x 2.0 x 2.0m) across 22 branches in Seoul, Busan, Incheon, Gyeonggi and Chungbuk,
+  serving households storing seasonal appliances, clothing, bedding and baby goods
+  as well as businesses storing samples, inventory, documents and office equipment.
+  Customers select a branch, choose a unit size, pay and manage their contract through
+  the KOKKAN mobile apps for iOS and Android, with recurring monthly card billing through
+  a Korean payment gateway, long-term and promotional discounting, an address-rental
+  (주소지 임대) product, and an optional pickup service for moving stored goods. The company
+  also runs a franchise and partnership program for operators who want to open a KOKKAN
+  branch. It was surfaced through the 500 Global portfolio. As of this profile KokkanLogis
+  publishes no public API, developer portal, SDK or technical documentation — the product
+  surface is a consumer website plus native mobile apps.'
 url: https://raw.githubusercontent.com/api-evangelist/kokkanlogis-coltd/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kokkan.co.kr/_img/comm/opengraph.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api-surface
+x-legal-name: 주식회사 곳간 (Kokkan Co., Ltd.)
+x-brand: KOKKAN / 도심창고 곳간
+x-representative: 김경호
+x-business-registration: 212-86-15416
+x-headquarters: B1, 31-10 Gangnam-daero 156-gil, Gangnam-gu, Seoul, South Korea
+x-country: KR
+x-support-phone: '1661-5990'
+x-branch-count: 22
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Logistics
+- Self Storage
+- Warehousing
+- Storage as a Service
+- Consumer Services
+- Mobile Apps
+- South Korea
+- Franchise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +62,43 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kokkanlogis.co.kr
+  url: https://kokkan.co.kr
+- type: CorporateWebsite
+  url: https://www.kokkanlogis.co.kr
+- type: Support
+  url: https://kokkan.co.kr/faq.php
+- type: Blog
+  url: https://blog.naver.com/kokkan
+- type: TermsOfService
+  url: https://kokkan.co.kr/content/guide.php
+- type: PrivacyPolicy
+  url: https://kokkan.co.kr/content/privacy.php
+- type: Locations
+  url: https://kokkan.co.kr/branch_list.php
+- type: Partners
+  url: https://kokkan.co.kr/partner.php
+- type: Press
+  url: https://kokkan.co.kr/news.php
+- type: Reviews
+  url: https://kokkan.co.kr/review.php
+- type: Events
+  url: https://kokkan.co.kr/event.php
+- type: iOSApp
+  url: https://apps.apple.com/kr/app/id1540021502
+- type: AndroidApp
+  url: https://play.google.com/store/apps/details?id=kr.co.kokkan.app
+- type: Instagram
+  url: https://www.instagram.com/kokkan_/
+- type: YouTube
+  url: https://www.youtube.com/@kokkan601
+- type: KakaoTalk
+  url: https://pf.kakao.com/_ErvnK
+- type: DomainSecurity
+  url: security/kokkanlogis-coltd-domain-security.yml
+- type: LLMsTxt
+  url: llms/kokkanlogis-coltd-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
