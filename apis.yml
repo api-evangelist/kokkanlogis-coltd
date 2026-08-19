@@ -41,7 +41,7 @@ x-headquarters: B1, 31-10 Gangnam-daero 156-gil, Gangnam-gu, Seoul, South Korea
 x-country: KR
 x-support-phone: '1661-5990'
 x-branch-count: 22
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
