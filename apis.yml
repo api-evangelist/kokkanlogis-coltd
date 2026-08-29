@@ -15,6 +15,17 @@ description: 'KokkanLogis Co.,Ltd. (주식회사 곳간, branded KOKKAN / 도심
   publishes no public API, developer portal, SDK or technical documentation — the product
   surface is a consumer website plus native mobile apps.'
 url: https://raw.githubusercontent.com/api-evangelist/kokkanlogis-coltd/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
